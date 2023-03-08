@@ -11,6 +11,7 @@ function App() {
       <HelloWorld />
       <SayMyName nome={nome} />
       <SayMyName nome="Poletti" />
+      
       <Pessoa 
         nome={nome} 
         idade="21" 
