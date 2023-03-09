@@ -2,6 +2,7 @@ import './App.css';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import List from './components/List';
 
 function App() {
   const nome = 'Felipe';
@@ -19,6 +20,8 @@ function App() {
         foto="https://media.licdn.com/dms/image/C4E03AQH5_QbCZC8GHQ/profile-displayphoto-shrink_800_800/0/1644373766386?e=2147483647&v=beta&t=dhZEqucUedic2wZj9d9CfBh2xYBhDWtWHeRh1kHeW4c" 
         fotoDescricao="Uma foto minha."
       />
+
+      <List />
     </div>
   );
 }
