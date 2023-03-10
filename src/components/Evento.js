@@ -1,4 +1,5 @@
 function Evento({ numero }) {
+  
   function meuEvento() {
     alert(`Ativado! ${numero}`);
   }
